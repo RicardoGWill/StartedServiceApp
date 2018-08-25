@@ -1,0 +1,2 @@
+# StartedServiceApp
+This app introduces a "Started Service".  There is a button to start a service "TheService" and another button to stop the service. There is a Toast given when each is done.  If the service is not stopped, it will continue.  All services need an "onBind" method, but in this case, it is "null" because it is a "Started Service", not a "Bound Service".  (OnClickListeners are done through "onClick" in XML.)
