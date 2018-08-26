@@ -27,7 +27,7 @@ public class TheService extends Service {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                // Stops the Service after 20 seconds.
+                // Stops the Service after 10 seconds.
                 stopSelf(this.serviceID);
             }
         }
